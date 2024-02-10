@@ -1,49 +1,49 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-  { href: '/', key: 'services', label: 'Services' },
+  { href: '/', key: 'pizzas', label: 'Pizza' },
+  { href: '/', key: 'menu', label: 'Menu' },
   { href: '/', key: 'pricing ', label: 'Pricing ' },
   { href: '/', key: 'contact_us', label: 'Contact Us' },
 ];
 
 // CAMP SECTION
 export const PEOPLE_URL = [
-  '/person-1.png',
-  '/person-2.png',
-  '/person-3.png',
-  '/person-4.png',
+  '/pizza_icon.png',
+  '/pizza_icon.png',
+  '/pizza_icon.png',
+  '/pizza_icon.png',
 ];
 
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
+    title: 'Customization Galore',
     icon: '/map.svg',
     variant: 'green',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      'Build your dream pizza with our extensive customization options. From choosing your favorite crust to piling on a variety of toppings, we put the power of creation in your hands.',
   },
   {
-    title: 'Set an adventure schedule',
+    title: 'Speedy Delivery',
     icon: '/calendar.svg',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Craving pizza in a hurry? Our speedy delivery service ensures that piping hot pies are delivered to your doorstep in no time, so you can satisfy your hunger without waiting long.",
   },
   {
-    title: 'Technology using augment reality',
+    title: 'Freshness Guaranteed',
     icon: '/tech.svg',
     variant: 'green',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      'We take pride in using only the freshest ingredients in every pizza we make. From locally sourced produce to premium meats and cheeses, taste the difference freshness makes with every bite.',
   },
   {
-    title: 'Many new locations every month',
+    title: 'Loyalty Rewards',
     icon: '/location.svg',
     variant: 'orange',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      'Join our loyalty program and unlock exclusive rewards with every order. Earn points for every purchase and redeem them for discounts, freebies, and special offers, because we believe in rewarding our loyal pizza enthusiasts.',
   },
 ];
 

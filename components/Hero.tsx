@@ -16,10 +16,10 @@ const Hero = () => {
                     alt="camp"
                     width={50}
                     height={50}
-                    className='absoulute left-[-5px] top-[-40px] w-10 lg:2-[50px]'
+                    className='absolute left-[-10px] top-[-25px] w-10 lg:w-[50px]'
                 />
-                <h1 className='bold-52 lg:bold-88'>Putuk truno Camp Area</h1>
-                <p className='regular-16 mt-6 text-gray-30 xl:max-w-[520px]'>We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one ap</p>
+                <h1 className='bold-52 lg:bold-88'>Pizza Island</h1>
+                <p className='regular-16 mt-6 text-gray-30 xl:max-w-[520px]'>Welcome to Pizza Land, where every slice is a journey to flavor heaven! With over 30 mouthwatering varieties to choose from, our menu is a playground for pizza lovers. Explore our delicious creations crafted with love and premium ingredients. Whether you're craving a classic Margherita or an adventurous BBQ Chicken, we've got your taste buds covered. Step into Pizza Land and embark on a flavor-packed adventure that'll leave you craving more. Order now and experience the magic of Pizza Land!</p>
                 <div className='my-11 flex flex-wrap gap-5'>
                     <div className='flex items-center gap-2'>
                         {Array(5).fill(1).map((_, index) => (
@@ -57,19 +57,20 @@ const Hero = () => {
                 <div className='relative z-20 flex w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8'>
                     <div className='flex flex-col'>
                         <div className='flexBetween'>
-                            <p className='regular-16 text-gray-20'>Location</p>
+                            <p className='regular-16 text-gray-20'></p>
                             <Image src="/close.svg" alt="close" width={24} height={24} />
                         </div>
-                        <p className='bold-20 text-white'>Aguas Calientes</p>
+                        <h1 className='flexCenter text-white bold-20 mb-5'>NEW !</h1>
+                        <p className='bold-20 text-white'>Landinio Pizza</p>
                     </div>
                     <div className='flexBetween'>
                         <div className='flex flex-col'>
-                            <p className='regular-16 block text-gray-20'>Distance</p>
-                            <p className='bold-20 text-white'>173.28 mi</p>
+                            <p className='regular-16 block text-gray-20'>Order Hotline</p>
+                            <p className='bold-20 text-white'>55 11 22</p>
                         </div>
                         <div className='flex flex-col'>
-                            <p className='regular-16 block text-gray-20'>Elevation</p>
-                            <p className='bold-20 text-white'>2.040 km</p>
+                            <p className='regular-16 block text-gray-20'>Delivery</p>
+                            <p className='bold-20 text-white'>30-45''</p>
                         </div>
                     </div>
                 </div>
