@@ -1,10 +1,9 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'pizzas', label: 'Pizza' },
-  { href: '/', key: 'menu', label: 'Menu' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
+  { href: '/menu', key: 'menu', label: 'Menu' },
+  { href: '/services', key: 'services', label: 'Services' },
+  { href: '/contact-us', key: 'contact_us', label: 'Contact Us' },
 ];
 
 // CAMP SECTION
@@ -14,7 +13,79 @@ export const PEOPLE_URL = [
   '/pizza_icon.png',
   '/pizza_icon.png',
 ];
-
+// Menu SECTION
+export const PRODUCTS = [
+  {
+    title: 'Pepperoni Passion',
+    icon: '/product3.png',
+    variant: 'green',
+    description:
+      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+  },
+  {
+    title: 'Margherita DOC',
+    icon: '/product1.png',
+    variant: 'green',
+    description:
+      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+  },
+  {
+    title: 'Quattro Stagioni (Four Seasons)',
+    icon: '/product1.png',
+    variant: 'green',
+    description:
+      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+  },
+  {
+    title: 'Neapolitan',
+    icon: '/product1.png',
+    variant: 'orange',
+    description:
+      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+  },
+  {
+    title: 'The Brooklyn Bridge',
+    icon: '/product2.png',
+    variant: 'orange',
+    description:
+      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+  },
+  {
+    title: 'The Original BBQ Chicken Pizza',
+    icon: '/product3.png',
+    variant: 'orange',
+    description:
+      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+  },
+  {
+    title: 'The Prosciutto Arugula',
+    icon: '/product1.png',
+    variant: 'orange',
+    description:
+      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+  },
+  {
+    title: 'The Meatball',
+    icon: '/product2.png',
+    variant: 'orange',
+    description:
+      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+  },
+  {
+    title: 'The Lombard Street',
+    icon: '/product3.png',
+    variant: 'orange',
+    description:
+      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+  },
+  {
+    title: 'The Bianca',
+    icon: '/product3.png',
+    variant: 'orange',
+    description:
+      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+  },
+];
 // FEATURES SECTION
 export const FEATURES = [
   {

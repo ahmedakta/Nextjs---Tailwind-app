@@ -19,7 +19,7 @@ const Hero = () => {
                     className='absolute left-[-10px] top-[-25px] w-10 lg:w-[50px]'
                 />
                 <h1 className='bold-52 lg:bold-88'>Pizza Island</h1>
-                <p className='regular-16 mt-6 text-gray-30 xl:max-w-[520px]'>Welcome to Pizza Land, where every slice is a journey to flavor heaven! With over 30 mouthwatering varieties to choose from, our menu is a playground for pizza lovers. Explore our delicious creations crafted with love and premium ingredients. Whether you're craving a classic Margherita or an adventurous BBQ Chicken, we've got your taste buds covered. Step into Pizza Land and embark on a flavor-packed adventure that'll leave you craving more. Order now and experience the magic of Pizza Land!</p>
+                <p className='regular-16 mt-6 text-gray-30 xl:max-w-[520px]'>Welcome to Pizza Land, where every slice is a journey to flavor heaven! With over 30 mouthwatering varieties to choose from, our menu is a playground for pizza lovers. Explore our delicious creations crafted with love and premium ingredients. Whether you`&apos;`re craving a classic Margherita or an adventurous BBQ Chicken, we`&apos;`ve got your taste buds covered. Step into Pizza Land and embark on a flavor-packed adventure that`&apos;`ll leave you craving more. Order now and experience the magic of Pizza Land!</p>
                 <div className='my-11 flex flex-wrap gap-5'>
                     <div className='flex items-center gap-2'>
                         {Array(5).fill(1).map((_, index) => (
@@ -70,7 +70,7 @@ const Hero = () => {
                         </div>
                         <div className='flex flex-col'>
                             <p className='regular-16 block text-gray-20'>Delivery</p>
-                            <p className='bold-20 text-white'>30-45''</p>
+                            <p className='bold-20 text-white'>30-45`&apos;&apos;`</p>
                         </div>
                     </div>
                 </div>

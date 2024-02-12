@@ -11,7 +11,7 @@ const Guide = () => {
         </p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
           <h2 className="bold-40 lg:bold-64 xl:max-w-[390px]">Pizza Perfection Guide</h2>
-          <p className="regular-16 text-gray-30 xl:max-w-[520px]">Delve into the art of pizza perfection with our comprehensive guide. From mastering the perfect crust to creating flavor-packed combinations, unlock insider tips and tricks to elevate your pizza game at home. Whether you're a novice or a seasoned pizza aficionado, our guide is your go-to resource for achieving culinary greatness with every slice.</p>
+          <p className="regular-16 text-gray-30 xl:max-w-[520px]">Delve into the art of pizza perfection with our comprehensive guide. From mastering the perfect crust to creating flavor-packed combinations, unlock insider tips and tricks to elevate your pizza game at home. Whether youre a novice or a seasoned pizza aficionado, our guide is your go-to resource for achieving culinary greatness with every slice.</p>
         </div>
       </div>
 
